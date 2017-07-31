@@ -31,3 +31,30 @@ var validateOptions = {
 	},
 }
 ```
+
+
+and a methods object as follows (adding all the methods you need):
+```
+var validateMethods = {
+	required: function(input) {
+		var val = input.val();
+		return val.trim() != '';
+	},
+	phoneUS: function(input) {
+		var val = input[0].value
+		return (val.length > 9 && /^(1-?)?(\([0-9]\d{2}\)|[0-9]\d{2})-?[0-9]\d{2}-?\d{4}$/.test(val));
+	},
+	digits: function(input) {
+		var val = input.val();
+		return /^\d+$/.test(val);
+	},
+}
+```
+
+then simply call the plugin after dom is ready:
+
+```
+$(document).ready(function() {
+	$('form').eq(0).validate()
+})
+```
