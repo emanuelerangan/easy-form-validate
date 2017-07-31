@@ -1,4 +1,4 @@
-# easy-form-validate
+# Easy Form Validate
 Easy to use form validation
 
 Create a new object called "validateOptions" as follows:
