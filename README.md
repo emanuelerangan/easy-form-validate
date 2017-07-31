@@ -2,8 +2,13 @@
 Easy to use form validation
 
 * Include the mandatory libraries:
+```
 <script src="jquery-3.2.1.min.js"></script>
 <script src="validate.js"></script>
+
+```
+
+
 
 * Create a new object called "validateOptions" as follows:
 
