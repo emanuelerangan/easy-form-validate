@@ -25,7 +25,7 @@ var validateOptions = {
 			phoneUS:"Please specify a valid phone number",
 			digits:"Numbers only please"
 		},
-    input2: {
+    		input2: {
 			phoneUS:"Please specify a valid phone number"
 		}
 	},
