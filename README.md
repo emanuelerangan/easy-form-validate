@@ -1,7 +1,11 @@
 # Easy Form Validate
 Easy to use form validation
 
-Create a new object called "validateOptions" as follows:
+* Include the mandatory libraries:
+<script src="jquery-3.2.1.min.js"></script>
+<script src="validate.js"></script>
+
+* Create a new object called "validateOptions" as follows:
 
 ```
 var validateOptions = {
@@ -33,7 +37,7 @@ var validateOptions = {
 ```
 
 
-and a methods object as follows (adding all the methods you need):
+* and a methods object as follows (adding all the methods you need):
 ```
 var validateMethods = {
 	required: function(input) {
@@ -51,7 +55,7 @@ var validateMethods = {
 }
 ```
 
-then simply call the plugin after dom is ready:
+* then simply call the plugin after dom is ready:
 
 ```
 $(document).ready(function() {
