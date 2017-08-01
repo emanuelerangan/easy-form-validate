@@ -1,6 +1,9 @@
 # Easy Form Validate
 Easy to use form validation
 
+Since this is a non-tested version, please feel free to suggest any improvement, correction by sending it to emanuelerangan@gmail.com
+
+
 * Include the mandatory libraries:
 ```
 <script src="jquery-3.2.1.min.js"></script>
